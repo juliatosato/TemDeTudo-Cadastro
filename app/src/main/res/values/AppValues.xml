@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores do APP -->
+    <color name="cinzaExcuro">#696969</color>
+    <color name="laranja">#FF8C00</color>
+
+    <!-- Elementos do APP -->
+    <string name="txtNome">Insira seu Nome: </string>
+
+    <!-- Botões do APP -->
+    <string name="btnCadastro">Cadastre-se</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnVoltar">Voltar à Tela Inicial</string>
+
+</resources>
