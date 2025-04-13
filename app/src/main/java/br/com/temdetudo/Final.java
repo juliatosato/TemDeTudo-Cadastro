@@ -29,10 +29,12 @@ public class Final extends AppCompatActivity {
         //Bundle
         Bundle infos = getIntent().getExtras();
 
+        if (infos != null) {
             String nome = infos.getString("nomeUser");
 
             // Texto para o usuário
             TextView texto = findViewById(R.id.txtBoaVindasCadastro);
             texto.setText("Bem-vindo, " + nome + "!");
+        }
     }
 }
